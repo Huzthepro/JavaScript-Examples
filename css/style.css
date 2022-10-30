@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Nunito', sans-serif;
+  background-color: #F2F3F4;
+  box-sizing: border-box;
+}
+
+
+.container{
+  background-color: white;
+  width: 70%;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.column{
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.gameCard{
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  margin: 20px;
+  flex-basis: 25%;
+}
+.cardImg img{
+  max-width: 100%;
+}
