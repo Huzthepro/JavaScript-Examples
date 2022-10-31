@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="images/favicon.ico" />
     <link rel="stylesheet" href="css/style.css" />
-    <script src="js/main.js"></script>
+
     <title>Games</title>
   </head>
   <body>
@@ -14,10 +14,17 @@
       <div class="container">
         <div class="row">
           <div class="column">
-            <canvas id="GameBoard"> </canvas>
+            <div id="CardGameBoard">
+              <div class="computer-deck deck"></div>
+              <div class="computer-card-slot card-slot"></div>
+              <div class="game-score"></div>
+              <div class="player-deck deck"></div>
+              <div class="player-card-slot card-slot"></div>
+            </div>
           </div>
         </div>
       </div>
     </section>
+    <script src="js/cardGame.js"></script>
   </body>
 </html>

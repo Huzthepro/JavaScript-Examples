@@ -23,7 +23,7 @@ let foodY;
 let gameOver = false;
 
 window.onload = function () {
-  board = document.getElementById('GameBoard');
+  board = document.getElementById('SnakeGameBoard');
   board.height = rows * blocksize;
   board.width = cols * blocksize;
   context = board.getContext('2d'); //To draw on board
