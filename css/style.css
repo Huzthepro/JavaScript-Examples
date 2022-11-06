@@ -152,3 +152,16 @@ right: 0.5rem;
 
 transform:rotate(180deg);
 }
+
+
+/* Multi PLayer Snake Game */
+.multi-snake-container{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#multiSnakeCanvas{
+  border: solid 1px black;
+}
